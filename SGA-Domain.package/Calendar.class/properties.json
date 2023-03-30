@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SGAObject",
+	"category" : "SGA-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Calendar",
+	"type" : "normal"
+}

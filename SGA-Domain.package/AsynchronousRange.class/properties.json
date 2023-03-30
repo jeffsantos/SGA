@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SGAObject",
+	"category" : "SGA-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"startDate",
+		"endDate"
+	],
+	"name" : "AsynchronousRange",
+	"type" : "normal"
+}

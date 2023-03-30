@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SGA-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"urlBase",
+		"authEndPoint",
+		"serviceEndPoint",
+		"authRawData"
+	],
+	"name" : "AbstractRESTRepository",
+	"type" : "normal"
+}

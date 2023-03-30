@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "SGAObject",
+	"category" : "SGA-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"code",
+		"workload",
+		"name"
+	],
+	"name" : "Discipline",
+	"type" : "normal"
+}

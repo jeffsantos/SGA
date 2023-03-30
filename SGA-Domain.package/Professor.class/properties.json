@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "SGAObject",
+	"category" : "SGA-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"name",
+		"email"
+	],
+	"name" : "Professor",
+	"type" : "normal"
+}

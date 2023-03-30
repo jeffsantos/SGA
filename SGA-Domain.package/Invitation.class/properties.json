@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "SGAObject",
+	"category" : "SGA-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"dueDate",
+		"classOffers",
+		"professor"
+	],
+	"name" : "Invitation",
+	"type" : "normal"
+}

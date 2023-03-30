@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SGA-Domain-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"programs",
+		"professors",
+		"disciplines",
+		"classOffers"
+	],
+	"name" : "MockAPI",
+	"type" : "normal"
+}

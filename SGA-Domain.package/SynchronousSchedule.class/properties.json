@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "SGAObject",
+	"category" : "SGA-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"weekDay",
+		"startTime",
+		"endTime"
+	],
+	"name" : "SynchronousSchedule",
+	"type" : "normal"
+}

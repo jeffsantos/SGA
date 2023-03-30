@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractRESTRepository",
+	"category" : "SGA-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DisciplineRESTRepository",
+	"type" : "normal"
+}

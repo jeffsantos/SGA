@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "SGAObject",
+	"category" : "SGA-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"language",
+		"startDate",
+		"endDate",
+		"trimester",
+		"discipline",
+		"professor",
+		"cohort",
+		"calendar",
+		"standardTime"
+	],
+	"name" : "ClassOffer",
+	"type" : "normal"
+}
