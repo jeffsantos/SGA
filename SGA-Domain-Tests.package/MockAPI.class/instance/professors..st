@@ -1,3 +1,3 @@
 accessing
-professors: aProfessorDict
-	professors := aProfessorDict
+professors: aProfessorArray
+	professors := aProfessorArray

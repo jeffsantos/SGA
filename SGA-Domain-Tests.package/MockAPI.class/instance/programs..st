@@ -1,3 +1,3 @@
 accessing
-programs: aProgramDict
-	programs := aProgramDict
+programs: aProgramArray
+	programs := aProgramArray

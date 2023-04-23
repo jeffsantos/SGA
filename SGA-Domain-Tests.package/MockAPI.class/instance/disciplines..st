@@ -1,3 +1,3 @@
 accessing
-disciplines: aDisciplineDict
-	disciplines := aDisciplineDict
+disciplines: aDisciplineArray
+	disciplines := aDisciplineArray

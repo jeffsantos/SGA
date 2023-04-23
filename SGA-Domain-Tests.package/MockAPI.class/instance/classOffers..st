@@ -1,3 +1,3 @@
 accessing
-classOffers: aClassOfferDict
-	classOffers := aClassOfferDict
+classOffers: aClassOfferArray
+	classOffers := aClassOfferArray
