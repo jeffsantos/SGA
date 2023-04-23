@@ -1,3 +1,3 @@
 accessing
 classOfferId: aString
-	^ classOffers at: aString
+	^ classOffers detect: [ :class | (class at: 'sgaId') = aString ].

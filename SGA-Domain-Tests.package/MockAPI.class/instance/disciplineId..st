@@ -1,3 +1,3 @@
 accessing
 disciplineId: anInteger
-	^ disciplines at: anInteger
+	^ disciplines detect: [ :disc | (disc at: 'id') = anInteger ].

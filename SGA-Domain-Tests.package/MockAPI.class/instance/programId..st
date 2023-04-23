@@ -1,3 +1,3 @@
 accessing
 programId: anInteger
-	^ programs at: anInteger
+	^ programs detect: [ :prog | (prog at: 'id') = anInteger ].

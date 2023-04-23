@@ -1,3 +1,3 @@
 accessing
 professorId: anInteger
-	^ professors at: anInteger
+	^ professors detect: [ :prof | (prof at: 'id') = anInteger ].

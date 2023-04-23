@@ -10,13 +10,13 @@ createTeapotDefaultRoutes
 	
 	teapot
 		GET: '/Programas' ->  [ data at: 'data' put: (mockData programs); yourself ];
-		GET: '/Programas/<id:IsInteger>' -> [ :request | data at: 'data' put: (mockData programId: (request at: #id) asString); yourself ];
+		GET: '/Programas/<id:IsInteger>' -> [ :request | data at: 'data' put: (mockData programId: (request at: #id)); yourself ];
 		GET: '/Professores' -> [ data at: 'data' put: mockData professors; yourself ];
-		GET: '/Professores/<id:IsInteger>' -> [ :request |  data at: 'data' put: (mockData professorId: (request at: #id) asString); yourself ];
+		GET: '/Professores/<id:IsInteger>' -> [ :request |  data at: 'data' put: (mockData professorId: (request at: #id)); yourself ];
 		GET: '/Disciplinas' -> [ data at: 'data' put: mockData disciplines; yourself ];
-		GET: '/Disciplinas/<id:IsInteger>' -> [ :request |  data at: 'data' put: (mockData disciplineId: (request at: #id) asString); yourself ];
+		GET: '/Disciplinas/<id:IsInteger>' -> [ :request |  data at: 'data' put: (mockData disciplineId: (request at: #id)); yourself ];
 		GET: '/Classes' -> [ data at: 'data' put: mockData classOffers; yourself ];
-		GET: '/Classes/<id>' -> [ :request |  data at: 'data' put: (mockData classOfferId: (request at: #id) asString); yourself ];
+		GET: '/Classes/<id>' -> [ :request |  data at: 'data' put: (mockData classOfferId: (request at: #id)); yourself ];
 		POST: '/Auth' -> [ :request | | login |
 	
 									login := { 'login' -> (request at: #login)..
