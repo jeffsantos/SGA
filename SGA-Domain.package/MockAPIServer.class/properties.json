@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "AbstractWriteableRESTRepository",
+	"super" : "TLWebserver",
 	"category" : "SGA-Domain",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "DisciplineRESTRepository",
+	"name" : "MockAPIServer",
 	"type" : "normal"
 }

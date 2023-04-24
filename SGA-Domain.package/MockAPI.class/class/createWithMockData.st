@@ -50,17 +50,17 @@ createWithMockData
 	dictDiscipline1 := {'id' -> 1.
 					   'codigo' -> 'MAPTD01'.
 					   'nome' -> 'Transformação Digital'.
-					   'cargaHoraria' -> '30'} asDictionary.
+					   'cargaHoraria' -> 30} asDictionary.
 					   
 	dictDiscipline2 := {'id' -> 2.
 					   'codigo' -> 'MAPTD02'.
 					   'nome' -> 'Metodologia de Pesquisa'.
-					   'cargaHoraria' -> '30'} asDictionary.
+					   'cargaHoraria' -> 30} asDictionary.
 	
 	dictDiscipline3 := {'id' -> 3.
 					   'codigo' -> 'PROGAPLIC1'.
 					   'nome' -> 'Programação Aplicada 1'.
-					   'cargaHoraria' -> '30'} asDictionary.
+					   'cargaHoraria' -> 30} asDictionary.
 					  
 					   
 	disciplines := { dictDiscipline1. dictDiscipline2. dictDiscipline3 }.

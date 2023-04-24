@@ -6,11 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"urlBase",
-		"authEndPoint",
-		"serviceEndPoint",
-		"authRawData"
+		"programs",
+		"professors",
+		"disciplines",
+		"classOffers"
 	],
-	"name" : "AbstractRESTRepository",
+	"name" : "MockAPI",
 	"type" : "normal"
 }

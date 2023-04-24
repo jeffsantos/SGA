@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "AbstractRESTRepository",
+	"super" : "AbstractReadableRESTRepository",
 	"category" : "SGA-Domain",
 	"classinstvars" : [ ],
 	"pools" : [ ],
