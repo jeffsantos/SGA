@@ -1,7 +1,6 @@
 action
 add: dict
-	| array |
-	array := super add: dict.
+	| returnedDict |
+	returnedDict := super add: dict.
 	
-	^ array
-		collect: [ :each | Discipline newFromData: each ]
+	^ Discipline newFromData: returnedDict
